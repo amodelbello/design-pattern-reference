@@ -5,7 +5,6 @@ class Stuff {
   }
 
   // default iterator
-  // eslint-disable-next-line no-undef
   [Symbol.iterator]() {
     let i = 0;
     let self = this;
@@ -30,7 +29,6 @@ class Stuff {
         };
       },
       // make iterator iterable
-      // eslint-disable-next-line no-undef
       [Symbol.iterator]: function() {
         return this;
       },

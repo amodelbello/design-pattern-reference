@@ -1,6 +1,5 @@
 class Event {
   constructor() {
-    // eslint-disable-next-line no-undef
     this.handlers = new Map();
     this.count = 0;
   }

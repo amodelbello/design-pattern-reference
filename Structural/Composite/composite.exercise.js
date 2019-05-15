@@ -3,7 +3,6 @@ class SingleValue {
     this.value = value;
   }
 
-  // eslint-disable-next-line no-undef
   [Symbol.iterator]() {
     let returned = false;
     return {

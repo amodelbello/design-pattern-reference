@@ -51,7 +51,6 @@ function makeInOrderIterator(root) {
     }, // next
 
     // this makes the iterator iterable
-    // eslint-disable-next-line no-undef
     [Symbol.iterator]: function() {
       return this;
     },
@@ -64,7 +63,6 @@ class BinaryTree {
   }
 
   // assuming only one form of iteration
-  // eslint-disable-next-line no-undef
   [Symbol.iterator]() {
     return makeInOrderIterator(this.rootNode);
   }

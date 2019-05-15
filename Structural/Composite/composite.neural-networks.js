@@ -63,7 +63,6 @@ class Neuron extends Connectable {
     );
   }
 
-  // eslint-disable-next-line no-undef
   [Symbol.iterator]() {
     let returned = false;
     return {

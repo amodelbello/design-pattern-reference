@@ -3,7 +3,8 @@ module.exports = {
   parser: "babel-eslint",
   env: {
     node: true,
-    jasmine: true
+    jasmine: true,
+    es6: true
   },
   rules: {
     quotes: ["error", "single", { avoidEscape: true }],
